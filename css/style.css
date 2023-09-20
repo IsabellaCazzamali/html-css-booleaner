@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#site_header {
+    background-color: rgb(16, 138, 203);
+    background-image: url("/img/pattern.png");
+    height: 50px;
+}
+
+header .logo-header {
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    width: 100px;
+}
