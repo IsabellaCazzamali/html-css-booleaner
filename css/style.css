@@ -32,3 +32,10 @@ h6 {
     color: #aaa9a9;
 }
 
+section {
+    padding-top: 10px;
+}
+
+.photo-caption {
+    font-size: 12px;
+}
