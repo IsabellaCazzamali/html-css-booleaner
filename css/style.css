@@ -15,3 +15,20 @@ header .logo-header {
     margin-bottom: 5px;
     width: 100px;
 }
+
+#site_main {
+    padding: 5px;
+}
+
+h5 {
+    color: #aaa9a9;
+}
+
+.blue_highlight {
+    color: rgb(27, 161, 244);
+}
+
+h6 {
+    color: #aaa9a9;
+}
+
