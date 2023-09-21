@@ -39,3 +39,11 @@ section {
 .photo-caption {
     font-size: 12px;
 }
+
+p {
+    padding-top: 10px;
+}
+
+p > span {
+    background-color: yellow;
+}
