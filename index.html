@@ -20,42 +20,40 @@
     <main id="site_main">
 
         <article>
-            
-            <section>
-                <h1>
+
+            <header>
+                <h1 class="pt_1">
                     Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee
                 </h1>
                 <h5>
-                    Scritto da <span class="blue_highlight">The Booleaner</span>
+                    Scritto da <a href="#" class="author_link">The Booleaner</a>
                 </h5>
                 <h6>
                     il 10/10/2020
                 </h6>
 
-            </section>
+            </header>
             <!-- End section article title -->
 
-            <section>
-                <img src="./img/tim-1.jpg" alt="Tim Berners-Lee a una conferenza" class="photo-tim">
-                <img src="./img/tim-2.jpg" alt="foto mezzo busto di Tim Berners-Lee" class="photo-tim">
-                <div class="photo-caption">
-                    1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen 
-                    <br>
-                    2nd Photo: Wikimedia, by Paul Clarke
+            <div class="content">
+                <div class="images pt_1">
+                    <img src="./img/tim-1.jpg" alt="Tim Berners-Lee a una conferenza" class="photo-tim">
+                    <img src="./img/tim-2.jpg" alt="foto mezzo busto di Tim Berners-Lee" class="photo-tim">
                 </div>
-            </section>
-            <!-- End Tim Berners-Lee photos -->
+                <div class="photo-caption">
+                        <div>1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</div> 
+                        
+                        <div>2nd Photo: Wikimedia, by Paul Clarke</div>
+                </div>
+                
+                <!-- End Tim Berners-Lee photos -->
 
-            <section>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur illum optio et consectetur laborum, maxime commodi aliquid ullam, accusantium sit labore inventore? Earum quasi sequi officia sint laudantium quod tempore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus nulla, rem consequatur <span>accusantium saepe quas repellat nisi nesciunt incidunt est eius consectetur illo adipisci eveniet</span>, quos odio rerum. Ad, deleniti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, iusto consectetur, non quo aut perspiciatis saepe debitis voluptatibus facilis inventore consequuntur in maxime amet velit neque blanditiis ut nam placeat.
+                <p  class="py_1">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur illum optio et consectetur laborum, maxime commodi aliquid ullam, accusantium sit labore inventore? Earum quasi sequi officia sint laudantium quod tempore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus nulla, rem consequatur <mark>accusantium saepe quas repellat nisi nesciunt incidunt est eius consectetur illo adipisci eveniet</mark>, quos odio rerum. Ad, deleniti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, iusto consectetur, non quo aut perspiciatis saepe debitis voluptatibus facilis inventore consequuntur in maxime amet velit neque blanditiis ut nam placeat.
                 </p>
+                <!-- End paragraph -->
 
-            </section>
-            <!-- End section paragraph -->
-
-            <section class="pt_1">
-                <ul>
+                <ul class="pl_1">
                     <li>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     </li>
@@ -66,10 +64,8 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </li>
                 </ul>
-            </section>
-            <!-- End section unordered list -->
+                <!-- End unordered list -->
 
-            <section>
                 <table class="pt_1">
                     <thead class="text-indentetion">
                         <tr>
@@ -96,34 +92,35 @@
                         </tr>
                     </tbody>
                 </table>
-            </section>
-            <!-- End section table -->
+                <!-- End section table -->
 
-            <section>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur illum optio et consectetur laborum, maxime commodi aliquid ullam, accusantium sit labore inventore? Earum quasi sequi officia sint laudantium quod tempore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus nulla, rem consequatur accusantium saepe quas repellat nisi nesciunt incidunt est eius consectetur illo adipisci eveniet, quos odio rerum. Ad, deleniti! <span>Lorem ipsum dolor sit amet consectetur adipisicing elit</span>. Nisi, iusto consectetur, non quo aut perspiciatis saepe debitis voluptatibus facilis inventore consequuntur in maxime amet velit neque blanditiis ut nam placeat.
+                <p class="py_2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur illum optio et consectetur laborum, maxime commodi aliquid ullam, accusantium sit labore inventore? Earum quasi sequi officia sint laudantium quod tempore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus nulla, rem consequatur accusantium saepe quas repellat nisi nesciunt incidunt est eius consectetur illo adipisci eveniet, quos odio rerum. Ad, deleniti! <mark>Lorem ipsum dolor sit amet consectetur adipisicing elit</mark>. Nisi, iusto consectetur, non quo aut perspiciatis saepe debitis voluptatibus facilis inventore consequuntur in maxime amet velit neque blanditiis ut nam placeat.
                 </p>
+                <!-- End section paragraph -->
 
-            </section>
-            <!-- End section paragraph -->
+            </div>
         </article>
-        <section>
-            <h4>
+
+
+        <section class="related_articles">
+            <h3>
                 Potrebbero interessarti
-                <div class="photo_container">
-                    <img src="../html-css-booleaner/img/monitor.jpg" alt="Monitor" class="photo_extra">
-                    <div class="photo_text">Lorem, ipsum dolor.</div>
+            </h3>
+                <div id="monitor" class="related_article">
+                    Lorem, ipsum dolor.
                 </div>
-                <div class="photo_container">
-                    <img src="../html-css-booleaner/img/graph.jpg" alt="Graphic" class="photo_extra">
-                    <div class="photo_text">Lorem, ipsum dolor.</div>
+                <div id="graph" class="related_article">
+                    Lorem, ipsum dolor.
                 </div>
-            </h4>
         </section>
         <!-- End section more -->
     </main>
     <!-- /#main_style -->
-
+    <footer>
+        <div>&copy; Boolean</div>
+    </footer>
+    <!-- #site_footer -->
 
 </body>
 </html>
